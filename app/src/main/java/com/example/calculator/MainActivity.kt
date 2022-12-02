@@ -18,9 +18,7 @@ class MainActivity : AppCompatActivity() {
         var second_num: String = ""
         var operation: String = ""
 
-        btn_zero.setOnClickListener{
-            setTextFields("0")
-        }
+        btn_zero.setOnClickListener{setTextFields("0")}
         btn_one.setOnClickListener{setTextFields("1")}
         btn_two.setOnClickListener{setTextFields("2")}
         btn_three.setOnClickListener{setTextFields("3")}
@@ -30,6 +28,7 @@ class MainActivity : AppCompatActivity() {
         btn_seven.setOnClickListener{setTextFields("7")}
         btn_eight.setOnClickListener{setTextFields("8")}
         btn_nine.setOnClickListener{setTextFields("9")}
+        //только одна точка
         btn_dot.setOnClickListener{
             if (math_operation.text.toString().indexOf(".") == -1){
                 setTextFields(".")
