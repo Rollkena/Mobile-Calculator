@@ -28,7 +28,7 @@
         android:textColor="@color/blue_text"
         android:gravity="end"
         android:ellipsize="end"
-        android:textSize="30sp"
+        android:textSize="70sp"
         android:singleLine="true"
         />
 
